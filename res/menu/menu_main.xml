@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/optMenuAdd" android:titleCondensed="Add a Show" android:title="Add a Show" android:icon="@drawable/add"></item>
+    
+
+</menu>

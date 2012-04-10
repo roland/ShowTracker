@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/cmShowEdit" android:icon="@drawable/edit" android:titleCondensed="Edit" android:title="Edit"></item>
+    <item android:id="@+id/cmShowDelete" android:titleCondensed="Delete" android:title="Delete"></item>
+    <item android:id="@+id/cmShowCancel" android:titleCondensed="Cancel" android:title="Cancel"></item>
+    
+
+</menu>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txtShowName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Game of Thrones"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:height="60dp" 
+            android:gravity="center_vertical"/>
+		
+        <LinearLayout
+            android:id="@+id/llEpisodeOuterWrap"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+	            android:id="@+id/llEpisodeWrap"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="left">
+	            <TextView
+	                android:id="@+id/textView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical"
+	                android:text="Episode"
+	                android:textAppearance="?android:attr/textAppearanceMedium" 
+	                android:layout_gravity="center_vertical" 
+	                android:height="50dp"/>
+			</LinearLayout>
+            <LinearLayout
+	            android:id="@+id/llEpisodeActionsWrap"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="right">
+	            
+	            <Button
+	                android:id="@+id/btnEpisodeDecrease"
+	                android:layout_width="50dp"
+	                android:layout_height="wrap_content"
+	                android:text="-" android:layout_gravity="center_vertical"/>
+	
+	            <TextView
+	                android:id="@+id/tvEpisodeNr"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical|center_horizontal"
+	                android:text="1"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:width="50dp" android:layout_gravity="center_vertical" android:height="50dp"/>
+	
+	            <Button
+	                android:id="@+id/btnEpisodeIncrease"
+	                android:layout_width="50dp"
+	                android:layout_height="wrap_content"
+	                android:text="+" 
+	                android:layout_gravity="center_vertical" />
+			</LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/llSeasonOuterWrap"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+	            android:id="@+id/llSeasonWrap"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="left">
+	            <TextView
+	                android:id="@+id/textView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical"
+	                android:text="Season"
+	                android:textAppearance="?android:attr/textAppearanceMedium" 
+	                android:layout_gravity="center_vertical" 
+	                android:height="50dp"/>
+			</LinearLayout>
+            <LinearLayout
+	            android:id="@+id/llActionsWrap"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="right">
+	            
+	            <Button
+	                android:id="@+id/btnSeasonDecrease"
+	                android:layout_width="50dp"
+	                android:layout_height="wrap_content"
+	                android:text="-" android:layout_gravity="center_vertical"/>
+	
+	            <TextView
+	                android:id="@+id/tvSeasonNr"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center_vertical|center_horizontal"
+	                android:text="1"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:width="50dp" android:layout_gravity="center_vertical" android:height="50dp"/>
+	
+	            <Button
+	                android:id="@+id/btnSeasonIncrease"
+	                android:layout_width="50dp"
+	                android:layout_height="wrap_content"
+	                android:text="+" 
+	                android:layout_gravity="center_vertical" />
+			</LinearLayout>
+        </LinearLayout>
+</LinearLayout>

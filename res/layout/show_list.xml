@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Shows"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="left|center_vertical" android:height="40dp"/>
+
+    <TextView
+        android:id="@+id/txtNoShows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have no shows yet. Press the Menu button to add one." 
+        android:visibility="gone"/>
+    
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
